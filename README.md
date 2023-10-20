@@ -6,6 +6,10 @@ Contains a gui window allowing you to select your sgf file to convert and save t
 
 You do not have to add an extension to the filename as the program will automatically make it a .txt file.
 
+Conversion of the sgf file will drop all lines relating to the players of the game, results of the game, comments added, and any variations played out if the game was reviewed.
+
+Only the main moves of the game will be kept and converted to the comma separated string.
+
 # How to Use
 Can be executed in any command prompt with command
 `python3 sgfconvert.py`
