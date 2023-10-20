@@ -6,6 +6,8 @@ If sgf is of a game that ended by resignation and also has been reviewed with va
 
 Passes in the game will be displayed in the file by the use of the '*' character. Do with this as you need for whatever use you have for the file.
 
+If any errors or bugs are found please submit an issue on the repository and I will happily look into it.
+
 # Information about program
 Contains a gui window allowing you to select your sgf file to convert and save the file as a text document.
 
