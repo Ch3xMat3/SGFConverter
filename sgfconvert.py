@@ -62,6 +62,7 @@ def writeFile():
 	for move in movesequence:
 		ch1 = move[0]
 
+		# if the first character is an '*' then keep it as it marks a pass move
 		if ch1 == '*':
 			finalsequence.append('*')
 		else:
