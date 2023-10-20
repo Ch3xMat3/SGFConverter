@@ -4,6 +4,8 @@ Python program to convert sgf files into a text file containing the comma separa
 # Disclaimer
 If sgf is of a game that ended by resignation and also has been reviewed with variations then final text file will contain the moves of the variations after the last move of the game and will have to be manually modified as there is no way to determine when the game ended.
 
+Passes in the game will be displayed in the file by the use of the '*' character. Do with this as you need for whatever use you have for the file.
+
 # Information about program
 Contains a gui window allowing you to select your sgf file to convert and save the file as a text document.
 
