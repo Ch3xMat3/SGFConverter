@@ -14,6 +14,11 @@ Only the main moves of the game will be kept and converted to the comma separate
 Can be executed in any command prompt with command
 `python3 sgfconvert.py`
 
+If running as python program and run into issues with not having python installed or missing libraries then install python from the following link
+https://www.python.org/downloads/windows/
+
+Install stable version from matching your system (most likely windows x64)
+
 Can be converted to a windows executable with the use of the 'pyinstaller' python command with the syntax 
 `pyinstaller sgfconvert.py`
 
